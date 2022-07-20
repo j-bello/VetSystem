@@ -81,7 +81,7 @@ class HomeController extends Controller
                 $userid = Auth::user()->id;
 
                 $appoint = appointment::where('user_id', $userid)->get();
-    
+
                 return view('user.my_appointment', compact('appoint'));
             }
 
@@ -98,7 +98,7 @@ class HomeController extends Controller
         $data->delete();
 
         return redirect()->back();
-        
+
 
     }
 
@@ -122,8 +122,8 @@ class HomeController extends Controller
         $doctor = doctor::all();
         return view('user.make_appointment', compact('doctor'));
 
-       
-        
+
+
     }
 
 

@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\EmployeeController;
+use App\Http\Controllers\DoctorController;
+
 
 
 /*
@@ -92,3 +94,13 @@ Route::get('/news',[HomeController::class, 'news'])->name('news');
 Route::get('/make-appointment',[HomeController::class, 'make_appointment'])->name('make_appointment');
 
 
+
+
+
+
+Route::get('/showappointment',[DoctorController::class, 'showappointment']);
+Route::get('/emailview/{id}',[DoctorController::class, 'emailview']);
+Route::post('/sendemail/{id}',[DoctorController::class, 'sendemail']);
+Route::get('/search',[DoctorController::class, 'search']);
+Route::get('/approved/{id}',[DoctorController::class, 'approved']);
+Route::get('/cancelled/{id}',[DoctorController::class, 'cancelled']);

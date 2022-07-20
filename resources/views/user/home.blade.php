@@ -23,6 +23,8 @@
 
     <link rel="stylesheet" href="../assets/css/theme.css">
 
+
+
 </head>
 
 <body>
@@ -72,7 +74,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="{{route('make_appointment')}}">Book Appointment</a>
                         </li>
-                
+
 
                         @if (Route::has('login'))
 
@@ -162,13 +164,13 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 py-3 wow fadeInUp">
                     <h1 class="display-4">Welcome to Your Health <br> Center</h1>
-                        <p class="text-white mb-4">Pets Care - Veterinary Clinic is an animal hospital on dedicated to 
-                            providing veterinary care for dogs and cats. We take great pride in our veterinary clinic and the 
-                            level of care we provide for our clients. Our CVO accredited facility offers a wide range of services 
-                            including medical, diagnostic, diet and preventive health care for dogs and cats so they live a longer, 
+                        <p class="text-white mb-4">Pets Care - Veterinary Clinic is an animal hospital on dedicated to
+                            providing veterinary care for dogs and cats. We take great pride in our veterinary clinic and the
+                            level of care we provide for our clients. Our CVO accredited facility offers a wide range of services
+                            including medical, diagnostic, diet and preventive health care for dogs and cats so they live a longer,
                             happier life. In addition, the hospital provides surgical services, dentistry, x-ray and ultrasound.
                             Our practice is conveniently located near parks, restaurants and locally owned shops.</p>
-                            <p class="text-white mb-4">At Pets Care - Veterinary Clinic, we believe that your pet is an important part of your family and therefore deserves 
+                            <p class="text-white mb-4">At Pets Care - Veterinary Clinic, we believe that your pet is an important part of your family and therefore deserves
                                 the opportunity to live the happiest and healthiest life possible.</p>
                         <a href="about.html" class="btn btn-primary">Learn More</a>
                     </div>
@@ -194,13 +196,13 @@
 
     <footer class="page-footer">
         <div class="container">
-            <div class="row px-md-3"> 
+            <div class="row px-md-3">
                 <div class="col-sm-6 col-lg-4 py-3">
                     <h5>Pets Care - Veterinary Clinic</h5>
-                    <p><a href="#" class="text-white">Pets Care - Veterinary Clinic is an animal hospital on dedicated to 
-                            providing veterinary care for dogs and cats. We take great pride in our veterinary clinic and the 
-                            level of care we provide for our clients. Our CVO accredited facility offers a wide range of services 
-                            including medical, diagnostic, diet and preventive health care for dogs and cats so they live a longer, 
+                    <p><a href="#" class="text-white">Pets Care - Veterinary Clinic is an animal hospital on dedicated to
+                            providing veterinary care for dogs and cats. We take great pride in our veterinary clinic and the
+                            level of care we provide for our clients. Our CVO accredited facility offers a wide range of services
+                            including medical, diagnostic, diet and preventive health care for dogs and cats so they live a longer,
                             happier life. </a></p>
 
                 </div>
@@ -222,7 +224,7 @@
                         <li><a href="#" class="text-white">Join as Doctors</a></li>
                     </ul>
                 </div>
-            
+
                 <div class="col-sm-6 col-lg-3 py-3">
                     <h5>Contact</h5>
                     <p class="footer-link mt-2 text-white">31st Floor, One World Place, Taguig, 1634 Metro Manila</p>
@@ -255,6 +257,7 @@
     <script src="../assets/vendor/wow/wow.min.js"></script>
 
     <script src="../assets/js/theme.js"></script>
+
 
 </body>
 

@@ -20,7 +20,10 @@
 
     <link rel="stylesheet" href="../assets/css/theme.css">
 
-    
+    <script src="https://jsuites.net/v4/jsuites.js"></script>
+    <link rel="stylesheet" href="https://jsuites.net/v4/jsuites.css" type="text/css" />
+
+
 </head>
 
 <div class="page-section">
@@ -57,12 +60,15 @@
             </select>
           </div>
 
-          <div class="col-12 py-2" data-wow-delay="300ms">
-            <textarea name="message" id="message" class="form-control" rows="6" placeholder="Enter message.."></textarea>
-          </div>
 
           <div class="col-12 col-sm-12 py-2" data-wow-delay="300ms">
+
             <input type="date" name="date" class="form-control">
+
+          </div>
+
+          <div class="col-12 py-2" data-wow-delay="300ms">
+            <textarea name="message" id="message" class="form-control" rows="6" placeholder="Enter message.."></textarea>
           </div>
 
 
@@ -74,3 +80,5 @@
       </form>
     </div>
   </div> <!-- .page-section -->
+
+</html>
